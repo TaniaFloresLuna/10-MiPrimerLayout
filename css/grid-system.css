@@ -1,0 +1,172 @@
+.caja{
+    border-left-style: black 2px solid;
+}
+.tex{
+    font-size: 20px;
+    color:black;
+    margin: 20px;
+    padding: 30px;
+    position: relative;
+    left: 290px;
+}
+h2{
+    font-size: 33px;
+    font-family: helvetica;
+    position: relative;
+    left: 30px;
+}
+div{
+     display: inline-block;
+     position: relative;
+     left: 2px;
+     margin: 2px;
+}
+p{
+     position: absolute;
+     padding-top: 170px;
+     padding-left: 15px;
+     color-font: blue;
+     left: 15%;
+     color: white;
+     font-family: helvetica;
+     font-size: 15px;
+}
+.logo{
+    position: relative;
+    left: 160px;
+}
+.grupo{
+    position: relative;
+    left: 110px;
+}
+.div1{/* Menu */
+    position: relative;
+    left: 110px;
+    font-size: 30px;
+}
+.fotos
+{
+    position: relative;
+    left: 150px;
+}
+.papa
+{
+    display:inline-block;
+    padding: 10px;
+    width: 900px;
+}
+.f{
+    display:inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.text-center {
+text-align: center;
+}
+.text-right {
+text-align: right;
+}
+/* Grid system */
+.container {
+width: 968px;
+padding-left: 14px; 
+padding-right: 14px;
+margin: 0px auto;
+position: relative;
+}
+.container-fluid {
+width: 100%;
+}
+.row {
+width: 100%;
+margin-left: -14px;
+margin-right: -14px;
+}
+.row:before, .row:after{
+content: " ";
+display: table;
+}
+.row:after {
+clear: both;
+}
+[class*="col-"] {
+min-height: 7px;
+padding: 0 14px;
+float: left;
+}
+.col-1 {
+/* (1 / 12) x 100 */
+width: 8.333333%;
+}
+.col-2 {
+/* (2 / 12) x 100 */
+width: 16.666667%;
+}
+.col-3 {
+/* (3 / 12) x 100 */
+width: 25%;
+}
+.col-4 {
+/* (4 / 12) x 100 */
+width: 33.333333%;
+}
+.col-5 {
+/* (5 / 12) x 100 */
+width: 41.666667%;
+}
+.col-6 {
+/* (6 / 12) x 100 */
+width: 50%;
+}
+.col-7 {
+/* (7 / 12) x 100 */
+width: 58.333333%;
+}
+.col-8 {
+/* (8 / 12) x 100 */
+width: 66.666667%;
+}
+.col-9 {
+/* (9 / 12) x 100 */
+width: 75%;
+}
+.col-10 {
+/* (10 / 12) x 100 */
+width: 83.333333%;
+}
+.col-11 {
+/* (11 / 12) x 100 */
+width: 91.666667%;
+}
+.col-12 {
+/* (12 / 12) x 100 */
+width: 100%;
+}
